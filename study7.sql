@@ -1,19 +1,19 @@
---odev7
---1.SORU:
+--study7
+--Q1
 SELECT * FROM film
 GROUP BY rating;
 
---2.SORU: 
+--Q2 
 SELECT replacement_cost, COUNT(*) FROM film
 GROUP BY replacement_cost
 HAVING COUNT(*) > 50
 ORDER BY COUNT(*);
 
---3.SORU:
+--Q3
 SELECT store_id, COUNT(*) FROM customer
 GROUP BY store_id;
 
---4.SORU:
+--Q4
 SELECT * FROM city 
 GROUP BY country_id
 ORDER BY COUNT(*) DESC
