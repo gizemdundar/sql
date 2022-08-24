@@ -1,2 +1,2 @@
 # sql
-https://app.patika.dev/
+https://patika.dev/
