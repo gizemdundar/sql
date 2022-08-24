@@ -1,14 +1,14 @@
 https://www.patika.dev/
 
---odev3
---1.SORU
+--study3
+--Q1
 SELECT country FROM country WHERE country LIKE 'A%a';
 
---2.SORU
+--Q2
 SELECT country FROM country WHERE country LIKE '_____n';
 
---3.SORU
+--Q3
 SELECT title FROM film WHERE title ILIKE '%t%t%t%t%';
 
---4.SORU
+--Q4
 SELECT * FROM film WHERE title LIKE 'C%' AND lentgth > 90 AND rental_rate = 2.99;
