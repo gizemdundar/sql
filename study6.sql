@@ -1,9 +1,12 @@
---odev6
---1.SORU:
+--STUDY 6
+--Q1
 SELECT AVG(rental_rate) FROM film;
---2.SORU:
+
+--Q2
 SELECT COUNT(*) FROM film WHERE title = 'C%';
---3.SORU:
+
+--Q3
 SELECT MAX(length) FROM film WHERE rental_rate = 0.99;
---4.SORU:
+
+--Q4
 SELECT COUNT(DISTINCT replacement_cost) FROM film WHERE length > 150;
