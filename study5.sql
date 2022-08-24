@@ -1,18 +1,18 @@
----odev5---
---1.SORU
+---STUDY 5---
+--Q1
 SELECT * FROM film
 WHERE title LIKE '%n'
 ORDER BY length 
 LIMIT 5;
 
---2.SORU
+--Q2
 SELECT * FROM film
 WHERE title LIKE '%n'
 ORDER BY length DESC
 OFFSET 5
 LIMIT 5;
 
---3.SORU
+--Q3
 SELECT * FROM customer
 WHERE store_id = 1
 ORDER BY last_name DESC
