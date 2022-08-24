@@ -1,15 +1,15 @@
-------odev4----
---1.SORU
+------STUDY 4----
+--Q1
 SELECT DISTINCT replacement_cost FROM film;
 
---2.SORU
+--Q2
 SELECT COUNT(DISTINCT replacement_cost) FROM film;
 
---3.SORU
+--Q3
 SELECT COUNT(title) FROM film WHERE LIKE 'T%' AND rating = 'G';
 
---4.SORU
+--Q4
 SELECT COUNT(country) FROM country WHERE country = '_____';
 
---5.SORU ILIKE sorusu
+--Q5
 SELECT COUNT(city) FROM city WHERE city ILIKE '%r';
